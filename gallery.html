@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Chocolates Inc.</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="icon" type="ico/png" href="img/1.png">
+	</head>
+	<body>
+		<div id="container">
+			<div id="banner"><br>
+				<a href="index.html"><img src="img/banner1.jpg"></a>
+			</div>
+				<nav>
+					<ul>
+					  <li><a href="index.html"><img src="img/HOME.png"></a></li>
+					  <li><a href="aboutus.html"><img src="img/ABOUT.png"></a></li>
+					  <li><a href="services.html"><img src="img/SERVICES.png"></a></li>
+					  <li><a href="terms.html"><img src="img/TERMS.png"></a></li>
+					  <li><a href="gallery.html"><img src="img/GAL.png"></a></li>
+					</ul>
+				</nav>
+				<div id="content">
+					<table>
+						<tr>
+							<td colspan="3"><span><center><br>Our Products<br></center></span></td>
+						</tr>
+						<tr>
+							<td colspan="3" id="click">(Click to select item)<br><br></td>
+						</tr>
+						<tr>
+							<td>
+								<img class="gal" src="img/g1.png" id="c1" value="1" price="200.00">
+								<p id="txt">Cream Filled Chocolate<br>Php 200.00</p>
+							</td>
+							<td>
+								<img class="gal" src="img/g2.png" id="c2" value="2" price="200.00">
+								<p id="txt">Caramel Filled Chocolate<br>Php 200.00</p>
+							</td>
+							<td>
+								<img class="gal" src="img/g3.png" id="c3" value="3" price="250.00">
+								<p id="txt">White Chocolate Cookie<br>Php 250.00</p>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<div id="addtext" class="view1">
+									<input type="checkbox" name="add1" value="1">Add to Basket<br>
+									Quantity: <input type="text" class="quantity" value="0">
+								</div>
+							</td>
+							<td>
+								<div id="addtext" class="view2">
+									<input type="checkbox" name="add2" value="2">Add to Basket<br>
+									Quantity: <input type="text" class="quantity" value="0">
+								</div>
+							</td>
+							<td>
+								<div id="addtext" class="view3">
+									<input type="checkbox" name="add3" value="3">Add to Basket<br>
+									Quantity: <input type="text" class="quantity" value="0">
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<img class="gal" src="img/g4.png" id="c4" value="4" price="295.00">
+								<p id="txt">Berry Parfait<br>Php 295.00</p>
+							</td>
+							<td>
+								<img class="gal" src="img/g5.png" id="c5" value="5" price="160.00">
+								<p id="txt">Peanut Brittle Chocolate<br>Php 160.00</p>
+							</td>
+							<td>
+								<img class="gal" src="img/g6.png" id="c6" value="6" price="850.00">
+								<p id="txt">Assorted Truffles<br>Php 850.00</p>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<div id="addtext" class="view4">
+									<input type="checkbox" name="add4" value="4">Add to Basket<br>
+									Quantity: <input type="text" class="quantity">
+								</div>
+							</td>
+							<td>
+								<div id="addtext" class="view5">
+									<input type="checkbox" name="add5" value="5">Add to Basket<br>
+									Quantity: <input type="text" class="quantity">
+								</div>
+							</td>
+							<td>
+								<div id="addtext" class="view6">
+									<input type="checkbox" name="add6" value="6">Add to Basket<br>
+									Quantity: <input type="text" class="quantity">
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<img class="gal" src="img/g7.png" id="c7" value="7" price="230.00">
+								<p id="txt">Chocolate Bark<br>Php 230.00</p>
+							</td>
+							<td>
+								<img class="gal" src="img/g8.png" id="c8" value="8" price="350.00">
+								<p id="txt">Chocolate Pie<br>Php 350.00</p>
+							</td>
+							<td>
+								<img class="gal" src="img/g9.png" id="c9" value="9" price="300.00">
+								<p id="txt">Fruits and Nuts Chocolate<br>Php 300.00</p>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<div id="addtext" class="view7">
+									<input type="checkbox" name="add7" value="7">Add to Basket<br>
+									Quantity: <input type="text" class="quantity" value="0">
+								</div>
+							</td>
+							<td>
+								<div id="addtext" class="view8">
+									<input type="checkbox" name="add8" value="8">Add to Basket<br>
+									Quantity: <input type="text" class="quantity" value="0">
+								</div>
+							</td>
+							<td>
+								<div id="addtext" class="view9">
+									<input type="checkbox" name="add9" value="9">Add to Basket<br>
+									Quantity: <input type="text" class="quantity" value="0">
+								</div>
+							</td>
+						</tr>
+					</table>
+					<div id="formsheet">
+						<img id="orderlabel" src="img/orderformlabel.png">	
+						First name:<br>
+						<input type="text" name="firstname" id="firstname">
+						<br>
+						Last name:<br>
+						<input type="text" name="lastname" id="lastname"><br>
+						Email: <br>
+						<input type="email" name="email" id="email">
+						<br>
+						Address: <br>
+						<input type="text" name="address" id="address"><br>
+						Contact #: <br>
+						<input type="text" name="contact" id="contact"><br>
+						<br><br>
+						<input type="submit" value="Submit" id="submit">
+						<div id="summary">							
+							<img id="summarylabel" src="img/summary-label.png"/>
+							<div class="summary2"></div>
+						<div id="totalyes">
+						
+						</div>
+						</div>
+					</div>
+				</div>
+			<footer>
+				<p>Copyright &#169 All Rights Reserved 2015</p>
+			</footer>
+		</div>
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script src="script.js"></script>
+	</body>
+</html>
